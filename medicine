@@ -14,6 +14,7 @@ sudo apt install gnome-software-plugin-flatpak
 >file
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 sudo restart
+sudo apt-get install w3m w3m-img
 flatpak install flathub net.studio08.xbplay
 >file
 git clone://github.com/jellybabypsi/reverse-amnessia
