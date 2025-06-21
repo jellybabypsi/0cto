@@ -29,6 +29,7 @@ sudo snap install pyradio
 sudo snap install facebook-webapp
 flatpak install flathub com.google.Chrome
 sudo resizepart /dev/sda2 10000000
+pyradio --play
 >file
 git clone https://github.com/egodigital/node-google-play-store
 sudo apt-get update
