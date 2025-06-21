@@ -5,7 +5,7 @@ w3m https://soundcloud.com/stylustbeats/stylust-pocket-tape-4-private-link
 sudo apt-get install ufw
 ufw enable
 ufw default deny incoming
-ufw allow outgoing
+ufw default allow outgoing
 >file
 sudo apt install flatpak
 sudo apt install gnome-software-plugin-flatpak
