@@ -27,7 +27,7 @@ sudo snap install facebook-webapp
 flatpak install flathub com.google.Chrome
 ~$ uname -r
 6.0.0-0.deb11.2-amd64
-flatpak install flathub io.gpt4all.gpt4all
+sudo apt-get remove gpt4all
 >file
 sudo resizepart /dev/sda2 10000000
 git clone https://github.com/egodigital/node-google-play-store
