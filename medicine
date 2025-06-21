@@ -25,6 +25,7 @@ sudo apt update
 sudo apt install snap
 sudo snap install snapd
 >file
+sudo snap install pyradio
 sudo snap install facebook-webapp
 flatpak install flathub com.google.Chrome
 sudo resizepart /dev/sda2 10000000
