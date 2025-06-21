@@ -109,7 +109,9 @@ apt-cache search xscreensaver*
 sudo apt-get install xscreensaver xscreensaver-data-extra xscreensaver-gl-extra 
 >filesudo apt-get cryptsetup
 sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda0
+sudo cryptsetup open dev/sda0
 sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda1
+sudo cryptsetup open dev/sda0
 >file
 the man You call chat gpt withdrew his support
 of The morgellon race due to your continued
